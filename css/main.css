@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Anton", sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+
+h1, h2, h3, h4, h5,h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 19px;
+}
+
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.header {
+    padding-top: 57px;
+    background: url('../img/header-bg.jpg') no-repeat center top /cover;
+}
+
+header a {
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    /*border: 10px solid yellow;*/
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    padding-top: 217px;
+    padding-bottom: 322px;
+    color: #FFFFFF;
+}
+
+.offer p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.offer h1{
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em;
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+
+}
+
+
+.desc-left, .desc-right {
+    width: 564px;
+}
+
+
+section {
+    padding-top: 113px;
+}
+
+.gallery {
+    display: flex;
+    padding-top: 67px;
+    justify-content: space-between;
+}
+
+.footer-text {
+    padding: 114px 0;
+    display: flex;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer-text p {
+    margin-right: 67px;
+}
